@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+:root {
+  --fuente-principal: Architects Daughter;
+  --bg-color: #d3e7cd;
+  --color-verde: rgb(91, 218, 101);
+  --color-blanco: #ffffff;
+  --color-gris: #f6f6f6;
+  --color-verde-oscuro: #5fcc8a;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  background-color: var(--bg-color);
+}

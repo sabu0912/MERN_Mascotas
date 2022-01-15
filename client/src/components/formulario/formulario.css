@@ -1,0 +1,44 @@
+.formulario {
+  width: 50%;
+}
+
+.form {
+  width: 80%;
+  background-color: var(--color-blanco);
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px 1.5rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.campo label {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--color-verde);
+}
+
+.campo input,
+textarea {
+  border: none;
+  height: 2rem;
+  padding: 0 0.5rem;
+  font-family: inherit;
+  background-color: var(--color-gris);
+  border-radius: 5px;
+  outline: none;
+}
+
+.campo textarea {
+  height: 5rem;
+}
+
+.campo input:focus,
+textarea:focus {
+  border: 1px solid var(--color-verde);
+}
