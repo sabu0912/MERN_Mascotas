@@ -1,5 +1,11 @@
 .formulario {
-  width: 50%;
+  width: 60%;
+}
+
+@media (min-width: 1024px) {
+  .formulario {
+    width: 40%;
+  }
 }
 
 .form {
